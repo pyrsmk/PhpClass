@@ -1,0 +1,24 @@
+{
+    "name": "pyrsmk/php-class",
+    "description": "PHP class loader",
+    "keywords": [
+        "class",
+        "classes",
+        "loader",
+        "loading",
+        "load"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Aurélien Delogu",
+        "email": "dev@dreamysource.fr"
+    }],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "PhpClass\\" : "src/"
+        }
+    }
+}
